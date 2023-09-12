@@ -1,0 +1,226 @@
+[gd_scene load_steps=4 format=3 uid="uid://dudveaq8lqy8m"]
+
+[ext_resource type="Texture2D" uid="uid://bkvwuhd3k2pb7" path="res://icon.svg" id="1_6iptn"]
+[ext_resource type="Texture2D" uid="uid://brge1s16hne5o" path="res://Example.jpg" id="1_g0p0f"]
+[ext_resource type="Script" path="res://Script/Memory_Game.gd" id="1_mt4cq"]
+
+[node name="MemoryPuzzle" type="Node2D"]
+script = ExtResource("1_mt4cq")
+
+[node name="Example" type="Sprite2D" parent="."]
+position = Vector2(959, 532)
+scale = Vector2(2.2219, 2.19691)
+texture = ExtResource("1_g0p0f")
+
+[node name="ButtonGroup" type="Node2D" parent="."]
+
+[node name="B1" type="TextureButton" parent="ButtonGroup"]
+unique_name_in_owner = true
+offset_left = 854.0
+offset_top = 25.0
+offset_right = 982.0
+offset_bottom = 153.0
+texture_normal = ExtResource("1_6iptn")
+stretch_mode = 4
+
+[node name="PointLight2D" type="PointLight2D" parent="ButtonGroup/B1"]
+color = Color(0, 1, 0, 1)
+energy = 0.0
+texture = ExtResource("1_6iptn")
+offset = Vector2(64, 64)
+
+[node name="B2" type="TextureButton" parent="ButtonGroup"]
+unique_name_in_owner = true
+offset_left = 720.0
+offset_top = 109.0
+offset_right = 848.0
+offset_bottom = 237.0
+texture_normal = ExtResource("1_6iptn")
+stretch_mode = 4
+
+[node name="PointLight2D2" type="PointLight2D" parent="ButtonGroup/B2"]
+color = Color(0, 1, 0, 1)
+energy = 0.0
+texture = ExtResource("1_6iptn")
+offset = Vector2(64, 64)
+
+[node name="B3" type="TextureButton" parent="ButtonGroup"]
+unique_name_in_owner = true
+offset_left = 641.0
+offset_top = 246.0
+offset_right = 769.0
+offset_bottom = 374.0
+texture_normal = ExtResource("1_6iptn")
+stretch_mode = 4
+
+[node name="PointLight2D3" type="PointLight2D" parent="ButtonGroup/B3"]
+color = Color(0, 1, 0, 1)
+energy = 0.0
+texture = ExtResource("1_6iptn")
+offset = Vector2(64, 64)
+
+[node name="B4" type="TextureButton" parent="ButtonGroup"]
+unique_name_in_owner = true
+offset_left = 634.0
+offset_top = 410.0
+offset_right = 762.0
+offset_bottom = 538.0
+texture_normal = ExtResource("1_6iptn")
+stretch_mode = 4
+
+[node name="PointLight2D4" type="PointLight2D" parent="ButtonGroup/B4"]
+color = Color(0, 1, 0, 1)
+energy = 0.0
+texture = ExtResource("1_6iptn")
+offset = Vector2(64, 64)
+
+[node name="B5" type="TextureButton" parent="ButtonGroup"]
+unique_name_in_owner = true
+offset_left = 719.0
+offset_top = 543.0
+offset_right = 847.0
+offset_bottom = 671.0
+texture_normal = ExtResource("1_6iptn")
+stretch_mode = 4
+
+[node name="PointLight2D5" type="PointLight2D" parent="ButtonGroup/B5"]
+color = Color(0, 1, 0, 1)
+energy = 0.0
+texture = ExtResource("1_6iptn")
+offset = Vector2(64, 64)
+
+[node name="B6" type="TextureButton" parent="ButtonGroup"]
+unique_name_in_owner = true
+offset_left = 855.0
+offset_top = 622.0
+offset_right = 983.0
+offset_bottom = 750.0
+texture_normal = ExtResource("1_6iptn")
+stretch_mode = 4
+
+[node name="PointLight2D6" type="PointLight2D" parent="ButtonGroup/B6"]
+color = Color(0, 1, 0, 1)
+energy = 0.0
+texture = ExtResource("1_6iptn")
+offset = Vector2(64, 64)
+
+[node name="B7" type="TextureButton" parent="ButtonGroup"]
+unique_name_in_owner = true
+offset_left = 1015.0
+offset_top = 621.0
+offset_right = 1143.0
+offset_bottom = 749.0
+texture_normal = ExtResource("1_6iptn")
+stretch_mode = 4
+
+[node name="PointLight2D7" type="PointLight2D" parent="ButtonGroup/B7"]
+color = Color(0, 1, 0, 1)
+energy = 0.0
+texture = ExtResource("1_6iptn")
+offset = Vector2(64, 64)
+
+[node name="B8" type="TextureButton" parent="ButtonGroup"]
+unique_name_in_owner = true
+offset_left = 1159.0
+offset_top = 549.0
+offset_right = 1287.0
+offset_bottom = 677.0
+texture_normal = ExtResource("1_6iptn")
+stretch_mode = 4
+
+[node name="PointLight2D8" type="PointLight2D" parent="ButtonGroup/B8"]
+color = Color(0, 1, 0, 1)
+energy = 0.0
+texture = ExtResource("1_6iptn")
+offset = Vector2(64, 64)
+
+[node name="B9" type="TextureButton" parent="ButtonGroup"]
+unique_name_in_owner = true
+offset_left = 1246.0
+offset_top = 410.0
+offset_right = 1374.0
+offset_bottom = 538.0
+texture_normal = ExtResource("1_6iptn")
+stretch_mode = 4
+
+[node name="PointLight2D9" type="PointLight2D" parent="ButtonGroup/B9"]
+color = Color(0, 1, 0, 1)
+energy = 0.0
+texture = ExtResource("1_6iptn")
+offset = Vector2(64, 64)
+
+[node name="B10" type="TextureButton" parent="ButtonGroup"]
+unique_name_in_owner = true
+offset_left = 1245.0
+offset_top = 247.0
+offset_right = 1373.0
+offset_bottom = 375.0
+texture_normal = ExtResource("1_6iptn")
+stretch_mode = 4
+
+[node name="PointLight2D10" type="PointLight2D" parent="ButtonGroup/B10"]
+color = Color(0, 1, 0, 1)
+energy = 0.0
+texture = ExtResource("1_6iptn")
+offset = Vector2(64, 64)
+
+[node name="B11" type="TextureButton" parent="ButtonGroup"]
+unique_name_in_owner = true
+offset_left = 1161.0
+offset_top = 103.0
+offset_right = 1289.0
+offset_bottom = 231.0
+texture_normal = ExtResource("1_6iptn")
+stretch_mode = 4
+
+[node name="PointLight2D11" type="PointLight2D" parent="ButtonGroup/B11"]
+color = Color(0, 1, 0, 1)
+energy = 0.0
+texture = ExtResource("1_6iptn")
+offset = Vector2(64, 64)
+
+[node name="B12" type="TextureButton" parent="ButtonGroup"]
+unique_name_in_owner = true
+offset_left = 1018.0
+offset_top = 28.0
+offset_right = 1146.0
+offset_bottom = 156.0
+texture_normal = ExtResource("1_6iptn")
+stretch_mode = 4
+
+[node name="PointLight2D12" type="PointLight2D" parent="ButtonGroup/B12"]
+color = Color(0, 1, 0, 1)
+energy = 0.0
+texture = ExtResource("1_6iptn")
+offset = Vector2(64, 64)
+
+[node name="Panel" type="Panel" parent="."]
+unique_name_in_owner = true
+visible = false
+offset_right = 1918.0
+offset_bottom = 1081.0
+mouse_filter = 1
+
+[node name="LineEdit" type="LineEdit" parent="Panel"]
+layout_mode = 0
+offset_left = 460.0
+offset_top = 321.0
+offset_right = 1507.0
+offset_bottom = 678.0
+theme_override_font_sizes/font_size = 256
+text = "Solved!!!"
+alignment = 1
+editable = false
+
+[connection signal="button_down" from="ButtonGroup/B1" to="." method="_on_button_puzzle_down" binds= [1]]
+[connection signal="button_down" from="ButtonGroup/B2" to="." method="_on_button_puzzle_down" binds= [2]]
+[connection signal="button_down" from="ButtonGroup/B3" to="." method="_on_button_puzzle_down" binds= [3]]
+[connection signal="button_down" from="ButtonGroup/B4" to="." method="_on_button_puzzle_down" binds= [4]]
+[connection signal="button_down" from="ButtonGroup/B5" to="." method="_on_button_puzzle_down" binds= [5]]
+[connection signal="button_down" from="ButtonGroup/B6" to="." method="_on_button_puzzle_down" binds= [6]]
+[connection signal="button_down" from="ButtonGroup/B7" to="." method="_on_button_puzzle_down" binds= [7]]
+[connection signal="button_down" from="ButtonGroup/B8" to="." method="_on_button_puzzle_down" binds= [8]]
+[connection signal="button_down" from="ButtonGroup/B9" to="." method="_on_button_puzzle_down" binds= [9]]
+[connection signal="button_down" from="ButtonGroup/B10" to="." method="_on_button_puzzle_down" binds= [10]]
+[connection signal="button_down" from="ButtonGroup/B11" to="." method="_on_button_puzzle_down" binds= [11]]
+[connection signal="button_down" from="ButtonGroup/B12" to="." method="_on_button_puzzle_down" binds= [12]]
